@@ -16,7 +16,7 @@ lab/
     ├── configs/
     └── backups/
 
-- The Solution I had
+➡  The Solution I had
 
 mkdir -p lab/{red_team/{logs,scripts},blue_team/{configs,backups}}
 
@@ -59,7 +59,7 @@ chmod 644 → rw-r--r-- (standard file)
 chmod 700 → rwx------ (owner only)
 chmod 400 → r-------- (read only, e.g. SSH keys)
 
-📋 Assignment 4 — Bandit Progress (OverTheWire)
+ ➡  Assignment 4 — Bandit Progress (OverTheWire)
 
 URL: https://overthewire.org/wargames/bandit/
 Level 	Status 	Key Concept 	Command Used
@@ -147,15 +147,14 @@ Add [what you added]
 Update [what you changed]
 Fix [what you corrected]
 
-Examples:
+➡ Examples:
 
-Add Day 3 notes on power tools
 Update Flag-Hunting-01 with Flag 3 solution
 Fix permission table in Day 2 notes
+Add Day 3 notes on power tools
 
 ➡  The Notes i had by my own:
 
-    The "one command" folder structure challenge showed the power of Brace Expansion
        Vim is a professional one, and a lot of professional hackers use vim instead of nano.
     Need more practice with find flags — there are a lot of options to practice them also.
 

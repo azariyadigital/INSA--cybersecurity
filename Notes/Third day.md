@@ -1,13 +1,13 @@
 Day 03 — Linux Power Tools & Privilege Escalation
 Date: 13/07/2018
 
-🔁 Morning Revision
+Morning Revision
 
     Reviewed Linux directory hierarchy
     Reviewed file permissions and chmod
     Discussed how attacker and defender logic maps to directory structure
 
-🔐 Privilege Escalation — Concept Overview
+ Privilege Escalation — Concept Overview
 
 Privilege Escalation (PrivEsc) is the process of gaining higher permissions than you were originally granted.
 Two Types
@@ -33,9 +33,6 @@ find / -writable -type f 2>/dev/null
 # Check for cron jobs
 cat /etc/crontab
 ls -la /etc/cron.*
-
-🛠️ Power Tools
-A. sudo — Superuser Do
 
 sudo -l                   # List what you're allowed to run as sudo
 sudo su                   # Switch to root shell - which we can acces the root from there.
@@ -154,14 +151,13 @@ strings binary | grep "==$"    # Base64 strings often end with ==
 # Decode Base64 after finding it
 echo "ZmxhZ3t0ZXN0fQ==" | base64 -d
 
-📝 Takeaways — while being on Day 3
+Notes i had on that day:
 
-    grep is your search engine for file contents; find is your search engine for the filesystem
-    SUID binaries are a common PrivEsc path — always run find / -perm -4000 during enumeration
+    we can find is your search engine for the filesystem using grep
     strings is often the fastest way to extract flags from unknown files
     Knowing your text editor in a headless environment is non-negotiable
 
-📝Homeworks:
-    Use grep -r to search /etc for any file containing the word "password"
+Homeworks we had on that day:
     Practice a text editor — open a file, edit it, save and quit without using nano
+     Use grep -r to search /etc for any file containing the word "password"
     Push notes and challanges we had to GitHub

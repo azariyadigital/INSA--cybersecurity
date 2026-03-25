@@ -1,6 +1,7 @@
 Name: Azariya Chombe
-On: Cybersecurity
+Age:  16th
+Currently Learning: Cybersecurity At INSA
 current Grade: 10th
-GitHub: github.com/azariyadigital
+GitHub Profile: github.com/azariyadigital
 
 
