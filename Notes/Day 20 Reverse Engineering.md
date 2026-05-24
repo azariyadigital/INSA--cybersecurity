@@ -38,21 +38,21 @@ Reverse engineering is the process of analyzing a system (usually compiled softw
 
 **Golden Rule:** Always get explicit written permission before reverse engineering any software you do not own.
 
-### ✅ Legal & Ethical
+###  Legal & Ethical
 - Malware you captured yourself
 - CTF / crackme challenges
 - Your own software
 - Open‑source projects
 - Licensed bug bounty targets
 
-### ❌ Potentially Illegal
+###  Potentially Illegal
 - Commercial software (check ToS)
 - DRM circumvention
 - Competitor products
 - Government systems
 - Without owner consent
-
-### 📜 Key Laws
+- 
+###  Key Laws
 - **CFAA (US)** — Computer Fraud & Abuse Act
 - **DMCA §1201** — Anti‑circumvention
 - **EU Directive 2016/1148 (NIS)**
